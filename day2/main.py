@@ -43,3 +43,12 @@ print(8 // 3)
 score = 95
 age = 51
 print(f"Your score is {score} and you're {age} years old.")
+
+# exercise life in weeks
+age = int(input('What is your current age?\n'))
+# print(type(age))
+years_left = 90 - age
+days = years_left * 365
+weeks = years_left * 52
+months = years_left * 12
+print(f"You have {years_left} years left to live, which is {months} months, or {weeks} weeks, or {days} days left.")
